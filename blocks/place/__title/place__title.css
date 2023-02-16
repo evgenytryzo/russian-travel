@@ -1,0 +1,4 @@
+.place__title {
+    height: 150px;
+    grid-area: place__title;
+}
