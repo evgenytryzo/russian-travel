@@ -1,0 +1,6 @@
+.cover__overlay {
+    margin: 0 48px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
