@@ -7,5 +7,31 @@
     grid-gap: 48px 40px;
     grid-template-areas:
     "place__title place__website"
-    "place__image place__paragraph"
+    "place__image place__paragraph";
+    margin: 92px 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        grid-template-rows: 152px 1fr;
+        grid-gap: 48px 32px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        grid-template-rows: 92px 1fr;
+        margin: 88px 0 0 0;
+        grid-gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        margin: 64px 0 0 0;
+    }
 }
