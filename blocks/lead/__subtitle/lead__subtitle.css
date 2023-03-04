@@ -10,9 +10,7 @@
 
 @media screen and (max-width: 768px) {
     .lead__subtitle {
-        font-size: 4.5vw;
-        line-height: 5vw;
-        width: calc(100% - 48px);
+        width: calc(100% - 128px);
     }
 }
 
@@ -21,5 +19,6 @@
         font-size: 16px;
         line-height: 20px;
         margin: 16px auto 0;
+        width: 288px;
     }
 }
