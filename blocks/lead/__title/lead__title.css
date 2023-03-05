@@ -7,18 +7,14 @@
     font-weight: 900;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .lead__title {
         font-size: 12vw;
         line-height: 13.5vw;
+        width: calc(100% - 48px);
     }
 }
 
-@media screen and (max-width: 720px) {
-    .lead__title {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 320px) {
     .lead__title {
