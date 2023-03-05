@@ -10,4 +10,6 @@
 3. БЭМ
 
 
+Ссылка на демо версию проекта - https://evgenytryzo.github.io/travel-web/
+
 # Проект завершён.
