@@ -6,6 +6,12 @@
     white-space: nowrap;
 }
 
+@media screen and (max-width: 675px) {
+    .footer__copyright {
+        margin: 24px 0 0 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__copyright {
         font-size: 14px;

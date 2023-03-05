@@ -4,6 +4,7 @@
     font-weight: 400;
     text-decoration: none;
     color: white;
+    transition: 0.6s ease-in-out;
 }
 
 @media screen and (max-width: 320px) {
@@ -11,4 +12,9 @@
         font-size: 24px;
         line-height: 100%;
     }
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
 }

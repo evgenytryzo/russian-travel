@@ -7,10 +7,16 @@
     line-height: 28px;
     font-weight: 400;
     text-decoration: none;
+    transition: 0.6s ease-in-out;
 }
 
 .header__lang-link:last-child{
     margin-right: 0;
+}
+
+.header__lang-link:hover {
+    transition: 0.3s ease-in-out;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
