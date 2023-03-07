@@ -3,12 +3,12 @@
     padding: 0 0 24px 0;
     display: flex;
     justify-content: space-between;
-    max-width: 1184px;
+    max-width: calc(1280px - 96px);
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        margin: 90px 24px 0;
+        max-width: calc(100% - 48px);
     }
 }
 
