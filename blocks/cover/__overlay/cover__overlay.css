@@ -9,8 +9,8 @@
   align-items: center;
   flex-direction: column;
   background-position: center;
-  margin: 92px 0 0;
   justify-content: center;
+  margin: 0;
 }
 
 .cover__overlay::before {
@@ -38,13 +38,11 @@
 @media screen and (max-width: 768px) {
   .cover__overlay {
     min-height: 480px;
-    margin: 90px 0 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__overlay {
     min-height: 200px;
-    margin: 66px 0 0;
   }
 }
