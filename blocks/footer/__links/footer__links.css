@@ -8,3 +8,9 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        gap: 32px;
+    }
+}
